@@ -2,7 +2,7 @@ body {
     display: flex;
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Roboto';
     flex-direction: column;
 }
 
@@ -66,8 +66,67 @@ button {
     border: none;
     border-radius: 8px;
     font-weight: bold;
-    padding: 8px 16px;
+    cursor: pointer;
 }
 
+button a {
+    display: block;
+    padding: 8px 16px;
+    width: 100px;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 32px;
+}
+
+.cards {
+    display: flex;
+    gap: 64px;
+}
+
+.cards .card {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.card img {
+   border-radius: 8px;
+   outline: solid #3882F6;
+}
+
+.quote-body {
+    display: flex;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+}
+
+.quote {
+    width: 1024px;
+    font-size: 32px;
+}
+
+.quote-author {
+    text-align: end;
+    font-size: 24px;
+    color: #37414d;
+}
+
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    font-size: 16px;
+    padding: 32px;
+}
 
 
